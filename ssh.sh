@@ -5,7 +5,7 @@ echo "=== Update system ==="
 apt update && apt upgrade -y
 
 echo "=== Install curl ==="
-apt install -y curl wget ca-certificates gnupg lsb-release
+apt install -y curl wget ca-certificates gnupg lsb-release uidmap
 
 echo "=== Install OpenSSH ==="
 apt install -y openssh-server
