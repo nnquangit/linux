@@ -30,7 +30,7 @@ systemctl restart ssh
 
 echo "=== Install Docker ==="
 curl -fsSL https://get.docker.com | sh
-dockerd-rootless-setuptool.sh install
+#dockerd-rootless-setuptool.sh install
 
 systemctl enable docker
 systemctl start docker
